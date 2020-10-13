@@ -1,0 +1,154 @@
+﻿/*---------------------------------------------------------------START BODY-----------------------------------------------*/
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/*---------------------------------------------------------------END BODY-----------------------------------------------*/
+/*---------------------------------------------------------------START NAVBAR-----------------------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background:linear-gradient(to right,#ff416c,yellow);
+}
+
+li {
+  float: left;
+  padding:5px 20px;
+  border:thin #fff;
+}
+
+li a {
+  display:list-item;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:1px #F9F5BD transparent;
+  transition:0.8s ease;
+  font-size:large;
+}
+
+li a:hover {
+  background-color:white;
+  color:black;
+}
+
+ul li.active a{
+	background-color:white;
+	color:black;
+}
+.sub-menu1{
+	display:none;
+}
+.main li a:hover .sub-menu1{
+	display:block;
+	position:absolute;
+	background-color:white;
+	color:black;
+	margin-top:14px;
+	margin-left:15px;
+}
+/*---------------------------------------------------------------END NAVBAR-----------------------------------------------*/
+.container{
+	width:90%;
+	margin:50px auto;
+}
+.headling{
+	text-align:center;
+	font-size:30px;
+	margin-bottom:50px;
+	box-shadow:0 0 3px #FF3300;
+}
+.blog{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	flex-flow:wrap;
+	flex-shrink:0;
+	
+}
+.card{
+	
+	width:20%;
+	background:#fff;
+	border:1px solid black;
+	margin-bottom:50px;
+	transition:0.6s;
+}
+.card-header{
+	text-align:center;
+	padding:50px 10px;
+	background:linear-gradient(to right,#ff416c,yellow);
+	color:#fff;
+}
+.card-body{
+	
+	padding:30px 20px;
+	text-align:center;
+	font-size:18px;
+}
+.card-body .btn{
+	display:block;
+	color:#fff;
+	text-align:center;
+	background:linear-gradient(to right,#ff416c,yellow);
+	margin-top:30px;
+	text-decoration:none;
+	padding:10px 5px;
+
+}
+.card:hover{
+	transform:scale(1.05);
+	box-shadow:0 0 50px -10px rgba(0,0,0,0.24);
+	
+}
+/*---------------------------------------------------------------START FOOTER-----------------------------------------------*/
+.footer{
+	width:100%;
+	height:auto;
+	margin:auto;
+	background:linear-gradient(to right,#ff416c,yellow);
+	padding:20px 0;
+}
+.icon{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.icon ul{
+	margin:0;
+	padding:0;
+	text-align:center;
+	display:flex;
+}
+.icon ul li{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin:0px 10px;
+	right:20px;
+	border-radius:100%;
+}
+
+
+
+.icon h6{
+	text-align:center;
+	color:white;
+}
+
+/*---------------------------------------------------------------END FOOTER-----------------------------------------------*/
+
+
+
+
+
+
+
