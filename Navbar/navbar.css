@@ -1,0 +1,77 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background: crimson;
+    color: wheat;
+    padding:20px;
+}
+.navbar-main{
+    background:linear-gradient(red 0%, orange 25%, yellow 50%, lime 75%, green 100%);
+    box-shadow: 2px 5px 10px rgb(0, 0, 0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 50px;
+    box-shadow:2px 5px 15px black;
+}
+.logo{
+    font-size: 30px;
+    color: #1d3557;
+}
+.logo-text{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.logo-side{
+   
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+  padding:5px 20px;
+  border:thin #fff;
+}
+
+li a {
+  display:list-item;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:1px #F9F5BD transparent;
+  transition:0.8s ease;
+  font-size:large;
+}
+
+li a:hover {
+  background-color:white;
+  color:black;
+  text-decoration:underline;
+}
+.sub-menu1{
+	display:none;
+}
+.main li a:hover .sub-menu1{
+	display:block;
+	position:absolute;
+	background-color:white;
+	color:black;
+	margin-top:14px;
+	margin-left:15px;
+}
